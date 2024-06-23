@@ -1,0 +1,289 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0px auto;
+  display: flex;
+}
+
+.header .header_logo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header .header_logo i {
+  padding: 10px;
+  background-color: #002146;
+  color: #fdc800;
+  border-radius: 50%;
+  font-size: 10px;
+  vertical-align: bottom;
+}
+
+.header .header_logo span {
+  font-weight: bold;
+}
+
+.header .header_logo a {
+  text-decoration: none;
+  color: black;
+  font-size: 27px;
+}
+
+.header .header_nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.header .header_nav li {
+  margin: 20px 13px 0px;
+}
+
+.header .header_nav a {
+  font-size: 16px;
+}
+
+.banner {
+  background-image: url(./../img/2.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+.introduction {
+  padding-top: 50px;
+}
+
+.introduction .container {
+  display: flex;
+}
+
+.introduction .introduction_welcome {
+  margin-right: 20px;
+}
+
+.introduction .introduction_welcome p {
+  color: #7c7c7c;
+}
+
+.introduction .introduction_welcome button {
+  padding: 15px 35px;
+  font-weight: bold;
+  color: #002146;
+  background-color: #fdc800;
+  text-align: right;
+}
+
+.info {
+  background-color: #f6f6f6;
+  height: 150px;
+  align-items: center;
+  margin: 50px 0 90px;
+}
+
+.info .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info .container .info_item {
+  display: flex;
+  padding-top: 50px;
+}
+.info .container .info_item h1 {
+  font-size: 50px;
+  margin-right: 10px;
+}
+
+.info .container .info_item p {
+  padding-top: 10px;
+}
+
+.subject .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subject .subject_item {
+  color: white;
+  background-color: #002146;
+  height: 120px;
+  width: 250px;
+  padding-top: 40px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.subject .subject_item_2 {
+  color: white;
+  background-color: #002146;
+  height: 120px;
+  width: 250px;
+  padding-top: 40px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.subject .subject_item i {
+  font-size: 40px;
+}
+
+.subject .subject_item_2 i {
+  font-size: 40px;
+}
+
+.post_event {
+  background-color: #f6f6f6;
+  margin-top: 100px;
+}
+
+.post_event .container {
+  padding: 100px;
+}
+
+.post {
+  margin-right: 50px;
+}
+.post .post_bg {
+  background-color: #ffffff;
+  margin-top: 50px;
+}
+
+.post .post_item {
+  display: flex;
+  padding: 20px 15px;
+}
+
+.post .post_item img {
+  width: 150px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.post .post_bg hr {
+  height: 2px;
+  background-color: #f8f8f8;
+  /* background-color: black; */
+  margin: 10px auto;
+  width: 90%;
+  align: center;
+}
+
+.post .post_header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.post .post_date {
+  color: #939393;
+}
+
+.post .post_text {
+  color: #6f6f6f;
+}
+
+.post button {
+  margin: 20px 0px 20px 436px;
+  padding: 15px 35px;
+  font-weight: bold;
+  color: #002146;
+  background-color: #fdc800;
+  text-align: right;
+  border-radius: 5px;
+}
+.event h1 {
+  margin-bottom: 50px;
+}
+
+.event .event_card {
+  width: 20%;
+  text-align: center;
+  padding: 20px 15px;
+}
+
+.event .event_card_top {
+  background-color: #fdc800;
+  color: #1b1d2d;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  font-weight: bold;
+}
+
+.event .event_card_top span {
+  font-size: 30px;
+}
+
+.event .event_card_bottom {
+  background-color: #002146;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 0 0 10px 10px;
+}
+
+.event_bg {
+  background-color: white;
+  margin-top: 20px;
+  display: flex;
+}
+
+.event .event_content {
+  padding: 20px 0px;
+}
+
+.event button {
+  margin: 20px 0px 20px 400px;
+  padding: 15px 35px;
+  font-weight: bold;
+  color: #002146;
+  background-color: #fdc800;
+  text-align: right;
+  border-radius: 5px;
+}
+
+.event_bg .event_header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.event_text {
+  color: #002146;
+}
+
+.footer {
+  background-color: #002146;
+  color: white;
+  padding-top: 50px;
+}
+
+.footer i {
+  color: #fdc800;
+  padding-right: 10px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer .container {
+  justify-content: space-between;
+}
+.footer hr {
+  background-color: #243445;
+  margin: 10px auto;
+  height: 2px;
+  width: 80%;
+}
+
+.footer .container p {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
